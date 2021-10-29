@@ -17,6 +17,7 @@ namespace FunctionApp1
         {
             System.Drawing.Image myImage = System.Drawing.Image.FromStream(input);
 
+            // inch vor xeloq ban
             // rotate 90 degree right
             myImage.RotateFlip(System.Drawing.RotateFlipType.Rotate90FlipNone);
 
